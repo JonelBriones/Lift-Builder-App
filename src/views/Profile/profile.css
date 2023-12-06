@@ -1,0 +1,43 @@
+a {
+  color: #000;
+}
+
+.profile {
+  width: 90%;
+  margin: auto;
+}
+
+.profile-name {
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid black;
+  margin-bottom: 1rem;
+  color: #626262;
+}
+.profile-info > * {
+  display: block;
+  font-weight: 400;
+  color: #626262;
+}
+.profile-btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-block: 1rem;
+  gap: 1rem;
+}
+.profile-btns > button {
+  border: none;
+  padding: 0.75rem;
+  border-radius: 30px;
+  width: 100%;
+  color: #000;
+  background-color: #fff;
+}
+.profile-btns .edit {
+  background-color: #000;
+  color: #fff;
+}
+.test {
+  /* margin-top: 4rem; */
+}

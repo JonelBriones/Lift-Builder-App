@@ -1,0 +1,28 @@
+.navbar {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  position: relative;
+  padding-block: 1rem;
+  width: 100%;
+  height: fit-content;
+  z-index: 1;
+}
+.absolute {
+  position: absolute;
+}
+a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 1.5rem;
+  width: 100%;
+  color: #000;
+}
+.white a {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
