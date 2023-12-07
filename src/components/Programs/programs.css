@@ -1,0 +1,29 @@
+.exercise-header > div,
+.exercise-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  text-align: center;
+}
+
+.black-border {
+  border-bottom: 2px solid black;
+}
+.exercise {
+  text-align: center;
+}
+.exercise h1 {
+  cursor: pointer;
+}
+.exercise-header h4,
+.exercise h1 {
+  padding-bottom: 1rem;
+}
+.exercise span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 50px;
+}
